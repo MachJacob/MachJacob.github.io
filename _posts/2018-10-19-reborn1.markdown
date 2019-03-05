@@ -1,0 +1,19 @@
+---
+layout: post
+title: The Port Begins
+date: 10/19/2018
+description: Introduction to making blog posts on the portfolio site
+category: Basic Reborn
+published: true
+tags:
+ - c++
+ - basic
+ - low level programming
+---
+The BASIC version of the game is complete and tested. As I worked on this, I realised how tedious it could get, but it did give me an idea of the struggles that programmers went through back then. Putting the initialisation at the bottom of the code was particularly interesting to me, since the GOSUB went through the entire code until it reached the target, so it was more efficient to put the init at the end.
+
+----
+I have started the process of porting the game. The first thing I immediately saw needed to be done was making classes for both rooms and items.  The Room class contained information on each of the six directions the player could travel from them.  
+I have not decided how to implement the reading of text yet, currently I am imagining some use of cin, which would require the game to be run on the console. I am still considering other ideas to make more use of the ASGE framework.
+
+As for the design of the game, I am planing to keep the story and map identical to the original game. Not having to spend time on this aspect will allow me to focus all my time on programming and implementing the game.

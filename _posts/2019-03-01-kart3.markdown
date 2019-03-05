@@ -1,0 +1,23 @@
+---
+layout: post
+title: Collisions
+date: 01/03/2019
+description: My first tests around collision in the Scarle Engine
+category: Scarle Mario Kart
+published: true
+tags:
+ - c++
+ - scarle engine
+ - game engine programming
+---
+This week I am focusing on collisions. I made a collider component which stores all of the locational information about the collider. In this it uses DirectX's collision library to create either a Axis-Aligned Bounding Box, Oriented Bounding Box or Bounding Sphere. Unfortunately it uses a different origin, meaning the shape is not centered on the centre of the origin. It is certainly possible to fix this, but I believe it will not be a simple matter than can be done once and applied to all colliders.
+
+----
+As for the collision logic, I needed a way to store the information about all the different colliders together. I made a CollisionManager class which has an array that stores pointers to each collider (assigned on the creation of the collider) and checks for collisions.
+
+Currently I have it so that each tick, the game performs a check of if it detects a collision, but I know that this is not a good way of doing it. For the purpose of my initial testing, if there is *any* collision, it triggers a movement in one of the UI elements. I will likely move these sorts of functions into the GameObjects themselves, with the objects having onCollision() functions, similar to Unity.
+
+----
+My goal for next week is to have a solid collider i.e. one that will actually block movement, since it is somewhat important to have the player not falling through the floor.
+
+<img src="{{ site.baseurl }}/img/collision-gif.jpg">
