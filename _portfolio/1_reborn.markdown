@@ -33,6 +33,6 @@ After reading the book *Write Your Own Adventure Programs For Your Microcomputer
 [Basic][basic] video link
 [ASGE C++][asge] video link
 
-[itch]: https://machjacob.itch.io/haunted-house
-[basic]: https://youtu.be/jXiFaC1iiFc
-[asge]: https://youtu.be/Yx_OTFgdrpw
+[itch]: https://machjacob.itch.io/haunted-house  
+[basic]: https://youtu.be/jXiFaC1iiFc  
+[asge]: https://youtu.be/Yx_OTFgdrpw  

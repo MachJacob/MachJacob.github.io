@@ -35,6 +35,6 @@ After watching the film *Ex Machina* (2014), we were tasked with creating a game
 [Basic][basic] video link
 [ASGE C++][asge] video link
 
-[itch]: https://machjacob.itch.io/leak
-[basic]: https://youtu.be/jXiFaC1iiFc
-[asge]: https://youtu.be/Yx_OTFgdrpw
+[itch]: https://machjacob.itch.io/leak  
+[basic]: https://youtu.be/jXiFaC1iiFc  
+[asge]: https://youtu.be/Yx_OTFgdrpw  
