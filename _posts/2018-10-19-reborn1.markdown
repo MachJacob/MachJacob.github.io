@@ -1,13 +1,14 @@
 ---
 layout: post
 title: The Port Begins
-date: 10/19/2018
+date: 2018-10-19 12:00:00
 description: Introduction to making blog posts on the portfolio site
 category: Basic Reborn
 published: true
 tags:
  - c++
  - basic
+ - basic reborn
  - low level programming
 ---
 The BASIC version of the game is complete and tested. As I worked on this, I realised how tedious it could get, but it did give me an idea of the struggles that programmers went through back then. Putting the initialisation at the bottom of the code was particularly interesting to me, since the GOSUB went through the entire code until it reached the target, so it was more efficient to put the init at the end.

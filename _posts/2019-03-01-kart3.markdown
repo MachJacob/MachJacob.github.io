@@ -1,13 +1,14 @@
 ---
 layout: post
 title: Collisions
-date: 01/03/2019
+date: 2019-03-01 12:00:00
 description: My first tests around collision in the Scarle Engine
 category: Scarle Mario Kart
 published: true
 tags:
  - c++
  - scarle engine
+ - directx12
  - game engine programming
 ---
 This week I am focusing on collisions. I made a collider component which stores all of the locational information about the collider. In this it uses DirectX's collision library to create either a Axis-Aligned Bounding Box, Oriented Bounding Box or Bounding Sphere. Unfortunately it uses a different origin, meaning the shape is not centered on the centre of the origin. It is certainly possible to fix this, but I believe it will not be a simple matter than can be done once and applied to all colliders.

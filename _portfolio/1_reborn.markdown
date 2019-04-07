@@ -9,7 +9,7 @@ published: true
 <center><b>Haunted House</b> is a simple text adventure game that I ported into the ASGE Framework in C++.</center><br/>
 
 #### Basic Reb0rn
-After reading the book *Write Your Own Adventure Programs For Your Microcomputer* by Jenny Tyler and Les Howarth, a book that details how to write a text adventure game in BASIC, 
+After reading the book *Write Your Own Adventure Programs For Your Microcomputer* by Jenny Tyler and Les Howarth, a book that details how to write a text adventure game in BASIC, we were tasked with 
 
 <!--<div class="img_row">
 	<img class="col two" src="{{ site.baseurl }}/img/hauntedhouse2.png" alt="" title="example image"/>
@@ -29,8 +29,10 @@ After reading the book *Write Your Own Adventure Programs For Your Microcomputer
 
 #### Links
 ----
+[itch.io][itch] itch.io page
 [Basic][basic] video link
 [ASGE C++][asge] video link
 
+[itch]: https://machjacob.itch.io/haunted-house
 [basic]: https://youtu.be/jXiFaC1iiFc
 [asge]: https://youtu.be/Yx_OTFgdrpw
