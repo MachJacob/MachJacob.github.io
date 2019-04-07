@@ -29,7 +29,7 @@ After reading the book *Write Your Own Adventure Programs For Your Microcomputer
 
 #### Links
 ----
-[itch.io][itch] itch.io page
+[itch.io][itch] page
 [Basic][basic] video link
 [ASGE C++][asge] video link
 

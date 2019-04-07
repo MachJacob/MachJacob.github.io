@@ -31,7 +31,7 @@ After watching the film *Ex Machina* (2014), we were tasked with creating a game
 
 #### Links
 ----
-[itch.io][itch] itch.io page
+[itch.io][itch] page
 [Basic][basic] video link
 [ASGE C++][asge] video link
 
