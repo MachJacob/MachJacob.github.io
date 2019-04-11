@@ -1,0 +1,17 @@
+---
+layout: post
+title: Fully Starting
+date: 2019-01-15 12:00:00
+description: showing of plans to make game
+category: Ex Machina
+published: true
+tags:
+ - c++
+ - ex machina
+ - low level programming
+---
+After a refreshing Christmas break, we start work fully on the game. Having given it the working title Leak, we begin to finalise its mechanics and themes. Drawing from our inspiration, the 2014 film Ex Machina, we want to put the themes of surveillance, privacy and betrayal.  You play as a hacker, collecting information without people knowing. Gameplay will be an abstraction of the hacking process, controlling various programs to navigate around a system and collect information while avoiding the detection of the system's protection.
+
+There will be a variety of programs that the player can control, each specialised for a different task. Examples so far are a collector, which has more storage space to hold information, but limited other functionality, and a "ninja" program which has no storage space, but can become undetectable briefly to access protected areas.
+
+The system defences are also going to be represented by similar programs, with the a cone of vision that can detect intruding programs. They will increase the overall level of awareness in the system, with higher levels having increasing penalties for the player.

@@ -2,7 +2,7 @@
 layout: post
 title: The Port Begins
 date: 2018-10-19 12:00:00
-description: Introduction to making blog posts on the portfolio site
+description: Beginning of basic-reb0rn port
 category: Basic Reborn
 published: true
 tags:

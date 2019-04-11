@@ -1,0 +1,21 @@
+---
+layout: post
+title: Data Run Postmortem
+date: 2018-02-23 12:00:00
+description: postmortem for Data Run
+category: Ex Machina
+published: true
+tags:
+ - c++
+ - ex machina
+ - low level programming
+---
+As the first game I have worked on in a team, this project has been an eye-opening experience for me. It was interesting seeing firsthand how assigning different tasks to different people will have an effect on the completion of that task. Everyone is good at different things, and their strengths should be taken into account when assigning them tasks. For example, with the positions of the isometric tiles, I was able to do what another member was struggling with because of my stronger maths skills. But then they were better than me at anything to do with file reading.
+
+We passed the project with good marks, and the relevant feedback to me was mostly aimed at my use of inheritance in my classes. We had a lot more planned than we managed to get in, so ultimately a portion of my code was wasted in preparation for what never arrived.
+
+We failed to achieve everything we had planned for the game, but our goals were not realistic. We were all planning significantly above our ability, particularly in such a short time span. As a result, our plans were constantly changing as we cut plans out, potentially causing changes or unnecessary code in the codebase.
+
+Another problem I found in the team was the lack of leadership. Nobody really took the role of leader in our team, so a lot of what happened was people working on their own and just fitting their work into the project once they were done. There were a lot of differences between everyone's visions for the project, and as a result we lost time because of what escaped our scope. I tried to take the role of leader, but I believe I was not assertive enough.
+
+Another point that I feel the project could have improved upon is the use of dynamic memory. Enemies were always loaded in, even when the level was not loaded. A consequence of this was if you played a level and started another, the enemy's rotation stayed between levels. This could lead to enemies moving the wrong direction. If new instances of enemies were created and deleted as the levels were played, this would not have happened.

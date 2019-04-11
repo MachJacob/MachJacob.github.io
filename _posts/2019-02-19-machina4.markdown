@@ -1,0 +1,23 @@
+---
+layout: post
+title: Enemy Movement
+date: 2018-02-19 12:00:00
+description: showing of enemy movement
+category: Ex Machina
+published: true
+tags:
+ - c++
+ - ex machina
+ - low level programming
+---
+Enemies are now able to move correctly. The following code is the moveEnemy function, which takes in a pointer to all the tiles:
+
+for (int i = 0; i < movement; i++)  
+{    
+if (!moveForward(tiles))    
+{      
+turnEnemy(tiles, 4);      
+i += 2;    
+}  
+}
+Each tile has a blocked bool, and the moveForward function checks if the tile ahead is blocked, then moves the enemy one square forward based on their rotation. If they cannot move, moveForward returns false, and the enemy is instead turned. Currently they simply turn 180 degrees, which uses up two points of movement.

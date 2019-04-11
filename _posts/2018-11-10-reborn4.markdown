@@ -1,0 +1,17 @@
+---
+layout: post
+title: Additional functionality
+date: 2018-11-10 12:00:00
+description: further improvements to the game
+category: Basic Reborn
+published: true
+tags:
+ - c++
+ - basic reborn
+ - low level programming
+---
+Since the last update, I have introduced a lot of game functionality. Getting the text input was the most significant hurdle, and now that it is complete, it has been smooth sailing. I have added the following functionality to the game: inventory system, picking up items, dropping items, using various items, the ability to open locked doors, and accurate checking if the player can go in the given direction.
+
+The inventory was handled through each item being initialised at the start of the game. They are initialised with a location between 0 and 64. When the player picks it up with the TAKE command, the location is set to -1, in the player's inventory. Dropping items is handled similarly, simply setting the item's location to player_location when the DROP command is entered.
+
+The item usage simply checks whether the player has the item (through the aforementioned inventory system) and that the player is in a correct room to use the item. If both checks pass, the item then performs whatever action it needs to.

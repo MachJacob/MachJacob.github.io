@@ -1,0 +1,17 @@
+---
+layout: post
+title: Isometric
+date: 2018-02-08 12:00:00
+description: some maths behind isometric tiles
+category: Ex Machina
+published: true
+tags:
+ - c++
+ - ex machina
+ - low level programming
+---
+One blocking feature that prevented our progress was the fact that the board was not constructed. One member of our team was supposed to investigate and implement an isometric board, but they were struggling with it. I stepped in, and helped with the maths required to place multiple tiles correctly.
+
+The maths I worked on was primarily the locations for the isometric tiles. The x-position of the tile needed to be (x_coord - y_coord) * 64. The y-position needed to be (x_coord + y_cord) * 32. Then they both need to have their offsets added to the right location on the screen.
+
+The player character's position was annoying to figure out, but eventually we managed to find the required offset to have them comfortably in the middle of a tile. The current offset is (-84, 752)

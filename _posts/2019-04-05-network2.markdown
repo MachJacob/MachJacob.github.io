@@ -1,0 +1,16 @@
+---
+layout: post
+title: Types of Packet
+date: 2018-04-05 12:00:00
+description: planning behind networking
+category: Play & Games Redux
+published: true
+tags:
+ - c++
+ - networking
+ - play & games redux
+ - low level programming
+---
+We have concluded that we need to do something about determining the type of packet sent. There will be a number of communications between each client and the server, so I have made a Packet class that contains a pointer to another type of packet, and an enum int to specify what time of message it is. Currently this is not being sent over the server correctly yet, but we are working on it.
+
+It would be simpler if the Packet class was the parent of each individual class, but instead it needs to be separate. A BasePacket class was made to be the parent of each packet, so that the actual Packet class could have a generic pointer that points to any of them. Working with virtual functions to handle this inheritance is irritating.

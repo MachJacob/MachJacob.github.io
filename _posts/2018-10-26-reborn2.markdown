@@ -1,0 +1,17 @@
+---
+layout: post
+title: Player Location
+date: 2018-10-26 12:00:00
+description: Example of player location
+category: Basic Reborn
+published: true
+tags:
+ - c++
+ - basic reborn
+ - low level programming
+---
+I've found a simple way to implement player location. The whole map is just an array of 64 Rooms, so the player location can be stored as an int. The movement function will simply add or subtract 1 or 8 depending on the direction moved. Whenever the game checks the player's location for something in that room, room[player_location] will bring it up. Currently movement is handled with the WASD keys, but this is only temporary for the purposes of testing.
+
+I also added simple strings that described the room, and said if there was an item in it. Most room descriptions aren't defined yet, but they can be done once the primary codebase is complete. 
+
+I am still thinking of the best way to implement the text input from the player. Currently the game is using ASGE rendering, so I am unsure if using cin would be a poor choice for the task.

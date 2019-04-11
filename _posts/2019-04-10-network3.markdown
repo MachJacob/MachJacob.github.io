@@ -1,0 +1,14 @@
+---
+layout: post
+title: Networking (hopefully) Fully Functional!
+date: 2018-04-10 12:00:00
+description: description of hopefully functional networking
+category: Play & Games Redux
+published: true
+tags:
+ - c++
+ - networking
+ - play & games redux
+ - low level programming
+---
+We finally managed to work out how to fix the problem. The server now receives the pipe correctly! What I believe the problem was is that we were not using the data() from the packet that needs to be sent, so the only thing the server was receiving correctly was the type. We were probably passing the pointer by accident, which obviously will not work.

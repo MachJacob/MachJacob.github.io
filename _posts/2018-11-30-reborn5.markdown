@@ -1,0 +1,22 @@
+---
+layout: post
+title: Haunted House Postmortem
+date: 2018-11-30 12:00:00
+description: postmorten for Haunted House
+category: Basic Reborn
+published: true
+tags:
+ - c++
+ - basic reborn
+ - low level programming
+ - postmorten
+---
+The game is finished. I passed, with my assessor impressed at some of my work. The feedback he gave primarily related to my use of static memory and how I didn't use enums. 
+
+I did not use any dynamic memory in the game, which I believe I could have. The inventory system and the map could have been handled much nicer through the use of it by having an array of pointers to items in the player's inventory which was filled up as they collected items. This would have prevented the complicated mess that was the relationship between rooms and items. The way it worked was that each room had an item id, and each item had a room id. The checks between them were both used often, increasing complexity of the code unnecessarily. This also meant that if a player dropped an item in a room that already held an item, the original item would be lost.
+
+For each of my checks regarding rooms, I simply used an integer number to represent them. This led to some confusion in the code, meaning that I had to reference a diagram I had that showed the room ids and the name of the appropriate room. If I had used enums to represent the name of the room, I could have used that instead, making my life simpler.
+
+
+
+Overall I feel the project was a success. The feedback mentioned above is something I plan to work on in future projects.

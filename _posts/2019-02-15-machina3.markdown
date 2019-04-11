@@ -1,0 +1,32 @@
+---
+layout: post
+title: Enemy Detection
+date: 2018-02-15 12:00:00
+description: my enemy cone of detection
+category: Ex Machina
+published: true
+tags:
+ - c++
+ - ex machina
+ - low level programming
+---
+With the blocker that was the board out of the way, we were all free to progress with the game. My task was to make the enemies function, with the abilities to detect the player and move. I had to construct an image to generate a cone to use for the relative tiles, I made a function to test if the player was in the cone of sight. The following code is the cone for if the enemy is facing north-east.
+
+while (y_diff < detection)
+{  if ((x_pos + x_diff == hacker->getXPosition() && y_pos + y_diff == hacker->getYPosition()))  
+{    
+return true;
+}
+  if (x_diff == x_finish)  
+{    
+x_start -= y_diff % 2;    
+x_diff = x_start;    
+x_finish -= y_diff % 2;    
+y_diff--;  
+}  
+else  
+{    
+x_diff++;  
+}
+}
+I initially tried using the tiles for this test, going through the tiles in the cone to check if its occupant was a player, but that didn't work because the tiles weren't passed into the function correctly. What I opted for instead was passing the player into the detect function, then comparing the player's location to the cone.

@@ -1,0 +1,14 @@
+---
+layout: post
+title: Networking
+date: 2018-04-02 12:00:00
+description: first showing of networking in grid control
+category: Play & Games Redux
+published: true
+tags:
+ - c++
+ - networking
+ - play & games redux
+ - low level programming
+---
+Networking is a difficult thing. We have finally managed to get a simple process started, but it was difficult. Currently on player click, the client is capable of sending a pipe to the server, which then prints the pipe's location (based on the mouse position). My initial role was working on game logic and the checks inside the server, but this is a blocker for the majority of the project, so I stepped in to help.

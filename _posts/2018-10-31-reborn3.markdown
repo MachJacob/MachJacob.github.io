@@ -1,0 +1,17 @@
+---
+layout: post
+title: Text Input
+date: 2018-10-31 12:00:00
+description: examples of text input
+category: Basic Reborn
+published: true
+tags:
+ - c++
+ - basic reborn
+ - low level programming
+---
+I worked out a clean way of implementing the player input. After reading through the documentation for string in C++, I learned about the push_back and pop_back functions. Whenever the game receives an input from any key A-Z it will push_back(letter_pressed) into str_input. Space will do the same, and backspace will pop_back() and delete the last letter in the string. I had to make sure it checked that it wasn't empty first, because otherwise it crashed the game.
+
+When enter is pressed, str_ver, str_noun, and str_event will all be cleared before the analyseInput function is called. This function finds the first space in str_input, then if one is found, making two substrings from it. str_verb starts from the beginning of the string to the first space, then str_noun goes from the first space + 1 to the end of the string. If no space is found, str_verb = str_string. 
+
+From here is a series of if statements that determine if str_verb is a registered verb. Whichever one it finds then calls a function to execute that verb. Currently is a big empty list of each verb, but this will be filled in as I finish the game!
