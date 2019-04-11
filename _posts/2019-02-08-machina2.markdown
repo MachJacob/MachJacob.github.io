@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Isometric
-date: 2018-02-08 12:00:00
+date: 2019-02-08 12:00:00
 description: some maths behind isometric tiles
 category: Ex Machina
 published: true
