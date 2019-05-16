@@ -1,0 +1,15 @@
+---
+layout: post
+title: Unity Alpha
+date: 2019-03-01 12:00:00
+description: Progress on the game
+category: Scarle Mario Kart
+published: true
+tags:
+ - unity
+ - game engine programming
+---
+We are making good progress on the alpha build for Mario Kart. My work has primarily been on the power ups, of which I have implemented the banana, green shell and boost mushroom. I am considering doing something for the customisation of characters, but I need to research how to do that.
+
+----
+One thing I'm enjoying about our group is that we have someone filling a leadership role, something that I feel is missing from my other group project currently. I look forward to continuing this project and the one in the Scarle Engine with them.

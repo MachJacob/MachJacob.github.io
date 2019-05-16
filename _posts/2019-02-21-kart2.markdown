@@ -1,0 +1,22 @@
+---
+layout: post
+title: Physics
+date: 2019-02-21 12:00:00
+description: My first tests with physics in the Scarle Engine
+category: Scarle Mario Kart
+published: true
+tags:
+ - c++
+ - scarle engine
+ - directx12
+ - game engine programming
+---
+I've volunteered to handle all of the physics and collisions for this project. I know it's an ambitious task, but it is likely that this is all I will work on for the project.
+
+----
+Having a look around in the basic physics already provided for us, I can see a simple way to add gravity. Just set the base velocity to (0, -9.8, 0) multiplied by a gravity boolean each tick.
+
+I have also added a simple AddForce() function, which does exactly what it says. It has two overloads, one of which takes a vector3, and another that takes three floats, for whichever version people want to use.
+
+----
+In the way of bad news, the groups have shuffled slightly. I am a little bit upset at this, because our leader changed to a different group, and I enjoyed working with him. 

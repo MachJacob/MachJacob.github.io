@@ -1,0 +1,16 @@
+---
+layout: post
+title: Collision Response
+date: 2019-03-21 12:00:00
+description: Collision response
+category: Scarle Mario Kart
+published: true
+tags:
+ - c++
+ - scarle engine
+ - directx12
+ - game engine programming
+---
+Collision response is tricky. The way I previously implemented collision detection, using DirectX's collision library, won't work for applying the forces of a collision. The DirectX collision functions only say what type of collision happened, while I need to be able to use the collision normal, and the point of the collision to calculate the impulse. I think I'm going to need to write my own detection logic so that I can have access to this information.
+
+I have found a wonderfully helpful book though: *Physics for Game Developers* by David M. Bourg and Bryan Bywalec.

@@ -1,0 +1,18 @@
+---
+layout: post
+title: Components
+date: 2019-03-07 12:00:00
+description: Physics components
+category: Scarle Mario Kart
+published: true
+tags:
+ - c++
+ - scarle engine
+ - directx12
+ - game engine programming
+---
+I refactored the PhysModel into a PhysComp. I did this because I feel like components are a better way to work with stuff like this compared to inheritance. This is also partly because this is the way that Unity does it, and I know that it works well there. The only significant difference for the rest of the group is that a PhysComp needs to be created for each physics object, and they need to access the component with GetPhysComp().
+
+----
+Similarly collisions are now handled by a Collider component, for essentially the same reasons listed above. Most of the game object does not need to interact with the collider. A collider will need access to its parent though, so the constructor for a Collider will pass down a pointer of the parent object to store for that.
+

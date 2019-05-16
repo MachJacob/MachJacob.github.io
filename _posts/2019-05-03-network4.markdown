@@ -1,0 +1,21 @@
+---
+layout: post
+title: Grid Control Postmortem
+date: 2019-04-10 12:00:00
+description: description of hopefully functional networking
+category: Play & Games Redux
+published: true
+tags:
+ - c++
+ - networking
+ - play & games redux
+ - low level programming
+ - postmortem
+---
+Working with networking was both an enlightening and frustrating experience. A lot of the networking code was haphazardly done, but I think we managed as well as we could. 
+
+The introduction to threading was another interesting part of this project. I had to experiment a number of ways to get various things to work while being thread-safe, ultimately concluding that the best way was to make queues in the game class and checking them in the update function. There may be something more efficient however, as this solution means checking each queue every single tick.
+
+There are aspects of the project that I feel could be improved upon. Foremost was the disparity in workload across each member. While it was distributed accordingly to ability, the differences in that ability were large, and some members of the group ended up doing significantly more than others.
+
+Going through the various checks for our project, one problem that stood out was the systematic complexity. I need to work on simplifying if statements to reduce this.

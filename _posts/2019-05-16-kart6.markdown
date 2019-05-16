@@ -1,0 +1,22 @@
+---
+layout: post
+title: Scarle Mario Kart Postmortem
+date: 2019-05-16 12:00:00
+description: Postmortem
+category: Scarle Mario Kart
+published: true
+tags:
+ - c++
+ - scarle engine
+ - directx12
+ - game engine programming
+ - postmortem
+---
+The work on the physics in this was long and grueling, but I would still call the time well spent. The task I volunteered for was difficult, and while I struggled, I feel like I definitely gained something from it.
+----
+I felt like I enjoyed my team for the alpha-build, but in the shakeup shortly before the beta started, we lost who I considered to be our leader. As a result, we had little leadership throughout production, and at times some people felt directionless. At other times, some people went off in different directions, or started working on the same thing without each other’s knowledge. The codebase was sometimes a mess as a result of it, and merge conflicts were a struggle to deal with.
+
+We also made poor use of the collaboration systems available to us through GitHub. Very few issues were made, and the projects board was barely used.
+----
+As for improvement on my own individual work, there is certainly a lot to be improved upon. I spent a long time trying to get collision impulse working. Too long. I focused too hard on the collision system itself, and failed to realise that the mistake was in the physics component. 
+ I need to learn to step back and analyse the whole picture instead of focusing too hard on details. This was the biggest problem with my project, as the huge amount of time I spent on this meant I couldn’t spend time optimising the system or implementing rotational impulse.
