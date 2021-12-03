@@ -1,6 +1,6 @@
 ---
-layout: post
-title: Project
+layout: Project
+title: Titanium Graveyard
 description: a top-down physics-based action game where you face enemies and gravity alike
 img: ../img/titanium_graveyard.png
 published: true

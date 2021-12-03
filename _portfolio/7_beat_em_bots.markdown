@@ -1,6 +1,6 @@
 ---
-layout: post
-title: Project
+layout: project
+title: Beat 'Em Bots
 description: a pseudo-programming strategy game where you set the commands for your fighter and watch the battle unfold.
 img: ../img/BeatEmBots.png
 published: true
