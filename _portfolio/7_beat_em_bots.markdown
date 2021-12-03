@@ -3,7 +3,7 @@ layout: post
 title: Project
 description: a pseudo-programming strategy game where you set the commands for your fighter and watch the battle unfold.
 img: ../img/BeatEmBots.png
-published: false
+published: true
 ---
 
 <center><b>Beat 'Em Bots</b> is the result of a short game jam on my university course.</center>

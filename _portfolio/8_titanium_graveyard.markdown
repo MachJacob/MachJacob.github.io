@@ -2,7 +2,7 @@
 layout: post
 title: Project
 description: a top-down physics-based action game where you face enemies and gravity alike
-img: ../img/titanium_graveyard.jpg
+img: ../img/titanium_graveyard.png
 published: true
 ---
 

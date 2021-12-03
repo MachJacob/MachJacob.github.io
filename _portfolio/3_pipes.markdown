@@ -2,7 +2,7 @@
 layout: project
 title: Control Grid
 description: my github 
-img: ../img/gridcontrol1.jpg 
+img: ../img/gridcontrol1.png 
 published: true
 ---
 
