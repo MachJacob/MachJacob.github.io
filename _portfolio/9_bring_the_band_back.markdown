@@ -1,7 +1,7 @@
 ---
-layout: post
-title: Project
-description: a platformer set in a world without music, where you must find the lost members of your band
+layout: project
+title: Bring the Band Back
+description: a platformer set in a world without music
 img: ../img/band_members_0.png
 published: true
 ---

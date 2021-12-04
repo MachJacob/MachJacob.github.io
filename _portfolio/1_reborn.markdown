@@ -16,10 +16,10 @@ After reading the book *Write Your Own Adventure Programs For Your Microcomputer
 	<img class="col one" src="{{ site.baseurl }}/img/hauntedhouse3.png" alt="" title="example image"/>
 </div> -->
 
-<div class="owl-carousel owl-theme">
+<!--<div class="owl-carousel owl-theme">
 <a href="{{ site.baseurl }}/img/hauntedhouse2.png" target="_blank"><img src="{{ site.baseurl }}/hauntedhouse2.png" /></a>
 <a href="{{ site.baseurl }}/img/hauntedhouse3.png" target="_blank"><img src="{{ site.baseurl }}/hauntedhouse3.png" /></a>
-</div>
+</div>-->
 
 <div class="col three caption">
 	Example game screens running on ASGE. Some commands are showcased.

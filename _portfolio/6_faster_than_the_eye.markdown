@@ -1,7 +1,7 @@
 ---
 layout: project
 title: Faster Than the Eye can See
-description: a Lemmings-like puzzle game about directing people safely around common hazards
+description: an action game with a focus on audio cues
 img: ../img/quake_400x400.jpg
 published: false
 ---
